@@ -12,7 +12,12 @@ export default function Buttons({
   return (
     <div className="flex flex-col items-center justify-center">
       {buttonIcon}
-      <div>{buttonName}</div>
+      <div>
+        <p className="text-black">
+          
+        {buttonName}
+        </p>
+        </div>
     </div>
   );
 }

@@ -13,8 +13,8 @@ export default function Sidebar() {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-        <ul className="w-36 lg:w-24 h-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 lg:bg-opacity-10 flex flex-col justify-around items-center">
-          <li>
+        <ul className="w-36 lg:w-24 h-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 lg:bg-opacity-20 flex flex-col justify-around items-center">
+          <li>                                                                                                                                                                                                                                                                                                 
             <HomeIcon />
           </li>
           <div className="border border-black w-[70%]"></div>

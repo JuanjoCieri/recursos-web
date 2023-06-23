@@ -1,3 +1,5 @@
+import Divider from "../../components/Divider";
+import Footer from "../../components/Footer";
 import SearchBar from "../../components/Searchbar/SearchBar";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Main from "./components/Main";
@@ -10,6 +12,8 @@ export default function Home() {
       <SearchBar />
       <Main />
       <MainCards />
+      <Divider dividerText="Encuentra los recursos que buscas en un solo lugar."/>
+      {/* <Footer /> */}
     </>
   );
 }
