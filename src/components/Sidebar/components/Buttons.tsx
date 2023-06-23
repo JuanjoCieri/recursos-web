@@ -10,11 +10,10 @@ export default function Buttons({
   buttonLinkTo,
 }: ButtonsProps) {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center gap-2">
       {buttonIcon}
       <div>
-        <p className="text-black">
-          
+        <p className="text-black text-xs font-medium">
         {buttonName}
         </p>
         </div>

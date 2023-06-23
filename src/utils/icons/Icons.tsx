@@ -36,7 +36,7 @@ function HomeIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-10 h-10"
+      className="w-6 h-6"
     >
       <path
         stroke-linecap="round"
@@ -55,7 +55,7 @@ function IconsIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-10 h-10"
+      className="w-6 h-6"
     >
       <path
         stroke-linecap="round"
@@ -69,7 +69,7 @@ function IconsIcon() {
 function PaletteIcon() {
   return (
     <svg
-      className="w-10 h-10"
+      className="w-6 h-6"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -95,7 +95,7 @@ function PaletteIcon() {
 function TypographyIcon() {
   return (
     <svg
-      className="w-10 h-10"
+      className="w-6 h-6"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -121,7 +121,7 @@ function BrushIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-10 h-10"
+      className="w-6 h-6"
     >
       <path
         stroke-linecap="round"
@@ -140,7 +140,7 @@ function PhotoIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-10 h-10"
+      className="w-6 h-6"
     >
       <path
         stroke-linecap="round"
@@ -154,7 +154,7 @@ function PhotoIcon() {
 function LightIcon() {
   return (
     <svg
-      className="w-10 h-10"
+      className="w-6 h-6"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -180,7 +180,7 @@ function MenuIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       color="#000000"
-      className="w-10 h-10"
+      className="w-6 h-6"
     >
       <path
         d="M3 5h18M3 12h18M3 19h18"
@@ -216,6 +216,11 @@ function SearchIcon() {
 
 const icons = [
   {
+    buttonIcon: <HomeIcon />,
+    buttonName: "Inicio",
+    buttonLinkTo: "/",
+  },
+  {
     buttonIcon: <IconsIcon />,
     buttonName: "Iconos",
     buttonLinkTo: "/iconos",
@@ -232,8 +237,8 @@ const icons = [
   },
   {
     buttonIcon: <BrushIcon />,
-    buttonName: "Diseños",
-    buttonLinkTo: "/diseños",
+    buttonName: "Ilustraciones",
+    buttonLinkTo: "/ilustraciones",
   },
   {
     buttonIcon: <PhotoIcon />,
