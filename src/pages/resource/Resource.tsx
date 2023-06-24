@@ -5,13 +5,24 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
+interface ResourceData {
+  resourceName: string;
+  resourceImage: string;
+}
+
+interface Resource {
+  [index: number]: ResourceData;
+}
+
 export default function Resource() {
-    const [resource, setResource] = useState()
+  const [resource, setResource] = useState<Resource | undefined>();
   const { name } = useParams();
 
   useEffect(() => {
     const importResource = async () => {
-      const resource = await import(/* @vite-ignore */ `../../resources/${name}/${name}.ts`);
+      const resource = await import(
+        /* @vite-ignore */ `../../resources/${name}/${name}.ts`
+      );
       setResource(resource.default);
     };
     importResource();
@@ -21,9 +32,13 @@ export default function Resource() {
     <>
       <Sidebar />
       <SearchBar />
-      {resource && <Header cardImage={resource[0].resourceImage} cardTittle={resource[0].resourceName}/>}
+      {resource && (
+        <Header
+          cardImage={resource[0].resourceImage}
+          cardTittle={resource[0].resourceName}
+        />
+      )}
       {resource && <Main resources={resource[1]} />}
     </>
   );
 }
-

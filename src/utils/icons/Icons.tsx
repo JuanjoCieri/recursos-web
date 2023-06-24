@@ -238,7 +238,7 @@ const icons = [
   {
     buttonIcon: <BrushIcon />,
     buttonName: "Ilustraciones",
-    buttonLinkTo: "ilustraciones",
+    buttonLinkTo: "ilustracion",
   },
   {
     buttonIcon: <PhotoIcon />,
