@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 type ResourceCard = {
-  cardImage: any;
+  cardImage: string;
   cardTittle: string;
   cardBackLink: string;
 };

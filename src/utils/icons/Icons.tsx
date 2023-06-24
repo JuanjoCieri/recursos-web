@@ -36,7 +36,7 @@ function HomeIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >
       <path
         stroke-linecap="round"
@@ -55,7 +55,7 @@ function IconsIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >
       <path
         stroke-linecap="round"
@@ -69,7 +69,7 @@ function IconsIcon() {
 function PaletteIcon() {
   return (
     <svg
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -95,7 +95,7 @@ function PaletteIcon() {
 function TypographyIcon() {
   return (
     <svg
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -121,7 +121,7 @@ function BrushIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >
       <path
         stroke-linecap="round"
@@ -140,7 +140,7 @@ function PhotoIcon() {
       viewBox="0 0 24 24"
       stroke-width="1"
       stroke="black"
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >
       <path
         stroke-linecap="round"
@@ -154,7 +154,7 @@ function PhotoIcon() {
 function LightIcon() {
   return (
     <svg
-      className="w-6 h-6"
+      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       stroke-width="1"
       viewBox="0 0 24 24"
       fill="none"
@@ -218,37 +218,37 @@ const icons = [
   {
     buttonIcon: <HomeIcon />,
     buttonName: "Inicio",
-    buttonLinkTo: "/",
+    buttonLinkTo: "",
   },
   {
     buttonIcon: <IconsIcon />,
     buttonName: "Iconos",
-    buttonLinkTo: "/iconos",
+    buttonLinkTo: "iconos",
   },
   {
     buttonIcon: <PaletteIcon />,
     buttonName: "Colores",
-    buttonLinkTo: "/colores",
+    buttonLinkTo: "colores",
   },
   {
     buttonIcon: <TypographyIcon />,
     buttonName: "Tipografía",
-    buttonLinkTo: "/tipografia",
+    buttonLinkTo: "tipografia",
   },
   {
     buttonIcon: <BrushIcon />,
     buttonName: "Ilustraciones",
-    buttonLinkTo: "/ilustraciones",
+    buttonLinkTo: "ilustraciones",
   },
   {
     buttonIcon: <PhotoIcon />,
-    buttonName: "Fotos",
-    buttonLinkTo: "/fotos",
+    buttonName: "Backgrounds",
+    buttonLinkTo: "backgrounds",
   },
   {
     buttonIcon: <LightIcon />,
     buttonName: "Ideas",
-    buttonLinkTo: "/ideas",
+    buttonLinkTo: "ideas",
   },
 ];
 

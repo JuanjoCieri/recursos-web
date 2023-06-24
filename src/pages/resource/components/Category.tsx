@@ -9,10 +9,9 @@ export default function Category({
   categoryName,
   categoryResources,
 }: CategoryProps) {
-  console.log(categoryName, categoryResources);
   return (
     <>
-      <section className="flex flex-col gap-10">
+      <section className="flex flex-col gap-10 mb-10">
         <div className="w-full flex justify-start items-center">
           <h3 className="text-black text-4xl font-medium">{categoryName}</h3>
         </div>

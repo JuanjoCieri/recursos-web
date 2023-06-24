@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type ButtonsProps = {
   buttonIcon: any;
   buttonName: string;
@@ -11,12 +13,10 @@ export default function Buttons({
 }: ButtonsProps) {
   return (
     <div className="flex flex-col items-center justify-center gap-2">
-      {buttonIcon}
+      <Link to={"/" + buttonLinkTo}>{buttonIcon}</Link>
       <div>
-        <p className="text-black text-xs font-medium">
-        {buttonName}
-        </p>
-        </div>
+        <p className="text-black text-xs font-medium">{buttonName}</p>
+      </div>
     </div>
   );
 }
