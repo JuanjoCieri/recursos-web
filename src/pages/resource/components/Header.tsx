@@ -13,7 +13,7 @@ export default function Header({ cardImage, cardTittle }: ResourceCard) {
             className="w-full h-[300px] object-cover rounded-[24px]"
             alt={`Imagen de ${cardTittle}`}
           />
-          <h3 className="text-4xl lg:text-6xl lg:text-4xl font-medium absolute pl-6 text-black">
+          <h3 className="text-5xl lg:text-6xl lg:text-4xl font-medium absolute pl-6 text-black">
             {cardTittle}
           </h3>
         </div>

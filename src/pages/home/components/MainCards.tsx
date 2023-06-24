@@ -15,7 +15,7 @@ export default function MainCards() {
         <MainCard cardImage={Image3} cardTittle="Iconos" cardBackLink="iconos" />
         <MainCard cardImage={Image4} cardTittle="Ideas" cardBackLink="ideas" />
         <MainCard cardImage={Image5} cardTittle="Tipografía" cardBackLink="tipografia" />
-        <MainCard cardImage={Image6} cardTittle="Ilustraciones" cardBackLink="ilustraciones" />
+        <MainCard cardImage={Image6} cardTittle="Ilustraciones" cardBackLink="ilustracion" />
       </section>
     </>
   );
