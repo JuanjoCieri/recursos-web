@@ -6,7 +6,6 @@ import History from "./components/History";
 
 export default function SearchBar() {
   const [open, setOpen] = useState(false);
-  const [clickedInside, setClickedInside] = useState(false);
   const navigate = useNavigate();
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -53,15 +52,12 @@ export default function SearchBar() {
       ) {
         setOpen(false);
       }
-      setClickedInside(false);
     }
 
     document.addEventListener("mousedown", handleClickOutside);
-    document.addEventListener("mouseup", () => setClickedInside(false));
 
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
-      document.removeEventListener("mouseup", () => setClickedInside(false));
     };
   }, []);
 
@@ -70,7 +66,7 @@ export default function SearchBar() {
       {open ? (
         <div
           className="animate-fade-down animate-once animate-duration-[800ms] w-screen h-screen fixed flex justify-center items-start top-0 bg-clip-padding backdrop-filter backdrop-blur-xl z-10"
-          onMouseDown={() => setClickedInside(true)}
+          onMouseDown={() => {}}
         >
           <div
             className="w-[70%] lg:w-[50%] h-auto bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 rounded-[30px] absolute z-50 top-0 mt-5 animate-fade-down animate-once animate-duration-1000"
@@ -99,7 +95,7 @@ export default function SearchBar() {
       ) : (
         <div
           className="w-[50%] h-12 bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 rounded-full absolute top-0 mt-5 flex justify-between px-6 animate-fade-down animate-once animate-duration-1000"
-          onMouseDown={() => setClickedInside(true)}
+          onMouseDown={() => {}}
         >
           <input
             placeholder="Buscar..."

@@ -18,7 +18,7 @@ interface Resource {
 
 export default function Resource() {
   const navigate = useNavigate();
-  const [resourcesName, setResourcesName] = useState([
+  const [resourcesName] = useState([
     "colores",
     "backgrounds",
     "iconos",

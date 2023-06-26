@@ -1,4 +1,4 @@
-import { HomeIcon, MenuIcon } from "../../utils/icons/Icons";
+import { MenuIcon } from "../../utils/icons/Icons";
 import { icons } from "../../utils/icons/Icons";
 import Buttons from "./components/Buttons";
 
