@@ -2,7 +2,7 @@ import ResourceCard from "./ResourceCard";
 
 type CategoryProps = {
   categoryName: string;
-  categoryResources: Array;
+  categoryResources: Array<any>;
 };
 
 export default function Category({

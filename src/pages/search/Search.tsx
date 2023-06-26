@@ -11,7 +11,7 @@ function findResources(resourceName: string): CategoryResource[] {
   const matchingResources: CategoryResource[] = [];
 
   for (const resource of resources) {
-    for (const category of resource.resourceCategories) {
+    for (const category of resource.resourceCategories ?? []) {
       for (const categoryResource of category.categoryResources) {
         if (
           categoryResource.resourceName
@@ -35,14 +35,14 @@ export default function Search() {
   const { name } = useParams();
 
   useEffect(() => {
-    setFoundedResults(findResources(name));
+    setFoundedResults(findResources(name || ""));
   }, [name]);
 
   return (
     <>
       <Sidebar />
       <SearchBar />
-      <Main searchValue={name} matchedResults={foundedResults} />
+      <Main searchValue={name || ""} matchedResults={foundedResults} />
       <Footer />
     </>
   );

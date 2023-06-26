@@ -7,7 +7,7 @@ export default function Sidebar() {
     <div className="drawer lg:drawer-open fixed z-10 lg:z-0 top-0 left-0">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col items-center justify-center fixed top-0 left-0 p-8">
-        <label htmlFor="my-drawer-2" className="lg:hidden z-40">
+        <label htmlFor="my-drawer-2" className="lg:hidden z-40 cursor-pointer">
           <MenuIcon />
         </label>
       </div>

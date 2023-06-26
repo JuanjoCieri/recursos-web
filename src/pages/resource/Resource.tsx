@@ -9,6 +9,7 @@ import Footer from "../../components/Footer";
 interface ResourceData {
   resourceName: string;
   resourceImage: string;
+  resourceCategories: Array<object>;
 }
 
 interface Resource {
