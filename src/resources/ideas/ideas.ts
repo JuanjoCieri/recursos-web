@@ -306,7 +306,7 @@ const ideas: Resources[] = [
                 ]
             },
             {
-                categoryName: "Inspiración para App's Moviles",
+                categoryName: "Inspiración para Aplicaciones Moviles",
                 categoryResources: [
                     {
                         resourceName: "Laudable Apps",

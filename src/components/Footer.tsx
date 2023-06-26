@@ -2,7 +2,7 @@ import { GithubIcon, LinkedinIcon } from "../utils/icons/Icons";
 
 export default function Footer() {
   return (
-    <footer className="w-screen h-20  flex flex-col justify-around items-center bottom-0">
+    <footer className="w-full h-20 flex flex-col justify-around items-center relative bottom-0">
       <div className="flex items-center justify-center gap-5">
         <a href="https://github.com/JuanjoCieri">
           <GithubIcon />

@@ -13,7 +13,7 @@ export default function Home() {
       <Main />
       <MainCards />
       <Divider dividerText="Encuentra los recursos que buscas en un solo lugar."/>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

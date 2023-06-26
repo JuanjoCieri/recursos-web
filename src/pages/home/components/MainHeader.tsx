@@ -5,7 +5,7 @@ export default function MainHeader() {
         Recursos gratuitos para desarrolladores web.
       </h1>
       <h3 className="font-bold text-black text-lg lg:text-3xl lg:w-[80%]">
-        <span className="text-orange-400">+150</span> recursos seleccionados
+        <span className="text-orange-400">+300</span> recursos seleccionados
         para que puedas llevar tu rendimiento al siguiente nivel.
       </h3>
     </div>

@@ -9,7 +9,7 @@ interface ResourceCategory {
     categoryResources: CategoryResource[];
 }
 
-interface CategoryResource {
+export interface CategoryResource {
     resourceImage:    string;
     resourceName:     string;
     resourceDesc:     string;
