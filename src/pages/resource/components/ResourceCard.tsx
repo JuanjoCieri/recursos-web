@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 type ResourceCardProps = {
   resourceName: string;
   resourceImage: string;
@@ -27,7 +25,7 @@ export default function ResourceCard({
               </h3>
             </div>
           </div>
-          <div className="w-full h-1/2 flex justify-start items-start px-5 ">
+          <div className="w-full h-1/2 flex justify-center items-center px-5 ">
             <h4 className="text-gray-800 font-medium text-center">{resourceDesc}</h4>
           </div>
         </div>

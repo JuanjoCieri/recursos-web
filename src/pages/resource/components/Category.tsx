@@ -18,6 +18,7 @@ export default function Category({
         <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10">
           {categoryResources.map((resource) => (
             <ResourceCard
+            key={resource.resourceName}
               resourceBackLink={resource.resourceBackLink}
               resourceName={resource.resourceName}
               resourceDesc={resource.resourceDesc}

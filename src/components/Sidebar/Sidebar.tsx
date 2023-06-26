@@ -15,7 +15,7 @@ export default function Sidebar() {
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="w-36 lg:w-[88px] h-full  bg-clip-padding backdrop-filter backdrop-blur-lg bg-white lg:bg-gray-400 bg-opacity-80 lg:bg-opacity-40 flex flex-col justify-around items-center">
           {icons.map((icon) => (
-            <li>
+            <li key={icon.buttonName}>
               <Buttons
                 buttonIcon={icon.buttonIcon}
                 buttonName={icon.buttonName}

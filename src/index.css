@@ -7,6 +7,24 @@
   src: url("../fonts/*");
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 :root {
   font-family: Metropolis, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

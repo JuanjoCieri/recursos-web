@@ -6,6 +6,9 @@ import NotFound from "./pages/notfound/NotFound";
 import Search from "./pages/search/Search";
 
 function App() {
+  console.log("Have a nice day 😄")
+  console.log("Linkedin: https://www.linkedin.com/in/juan-jose-cieri")
+  console.log("Github: https://www.github.com/JuanjoCieri")
   return (
     <BrowserRouter>
       <Routes>
