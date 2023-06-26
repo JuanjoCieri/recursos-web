@@ -55,7 +55,7 @@ function IconsIcon() {
       viewBox="0 0 24 24"
       strokeWidth="1"
       stroke="black"
-      className="w-6 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+      className="w-6 h-6"
     >
       <path
         strokeLinecap="round"

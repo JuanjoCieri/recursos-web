@@ -9,7 +9,7 @@ import Image6 from "../../../assets/resourcesImage/Image6.jpeg";
 export default function MainCards() {
   return (
     <>
-      <section className="w-full py-16 grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-10">
+      <section className="w-full py-16 grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-10 z-30">
         <MainCard cardImage={Image1} cardTittle="Colores" cardBackLink="colores" />
         <MainCard cardImage={Image2} cardTittle="Backgrounds" cardBackLink="backgrounds" />
         <MainCard cardImage={Image3} cardTittle="Iconos" cardBackLink="iconos" />
