@@ -65,7 +65,7 @@ export default function SearchBar() {
     <>
       {open ? (
         <div
-          className="animate-fade-down animate-once animate-duration-[800ms] w-screen h-screen fixed flex justify-center items-start top-0 bg-clip-padding backdrop-filter backdrop-blur-xl z-10"
+          className="animate-fade-down animate-once animate-duration-[800ms] w-screen h-screen fixed flex justify-center items-start top-0 bg-clip-padding backdrop-filter backdrop-blur-xl z-40"
           onMouseDown={() => {}}
         >
           <div

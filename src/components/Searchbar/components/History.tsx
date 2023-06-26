@@ -8,7 +8,7 @@ export default function History() {
       {!history ? (
         false
       ) : (
-        <div className="container flex flex-col items-start justify-start w-full px-4 py-2 max-h-52 lg:max-h-80 overflow-y-scroll">
+        <div className="container flex flex-col items-start justify-start w-full px-4 py-2 max-h-52 lg:max-h-80 overflow-y-scroll z-50">
           <ul className="flex flex-col items-start justify-start">
             {JSON.parse(history).map((data: string, index: number) => (
               <Link to={"/search/" + data} key={index}>
