@@ -38,7 +38,7 @@ import Typographyhandbook from "./images/Typographyhandbook.png";
 
 const tipografias: Resources[] = [
     {
-        resourceName: "Tipografias",
+        resourceName: "Tipografías",
         resourceImage: background
     },
     {
