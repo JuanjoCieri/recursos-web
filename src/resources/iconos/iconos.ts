@@ -390,7 +390,7 @@ const iconos: Resources[] = [
                         resourceName: "Star Wars Icons",
                         resourceDesc: "Iconos de Star Wars en formato PNG para tus proyectos relacionados con Star Wars.",
                         resourceImage: StarWarsIcons,
-                        resourceBackLink: "https://symbolicons.com/free#star-wars/?ref=uigoodies"
+                        resourceBackLink: "https://symbolicons.com/free#star-wars/"
                     },
                     {
                         resourceName: "Supercons",
